@@ -1,0 +1,49 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+    max-width: 950px;
+    background-image: url(zinkboat.gif);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Comic-Sans';
+    color: #44f4c5;
+}
+
+p, button, input {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+	margin-bottom:1em;
+}
+
+#gameboard {
+	position:relative;
+	margin:0 auto 2em auto;
+	width:500px;
+	height:500px;
+	background-image: url(watertie.jpg);
+	opacity: 0.3;
+}
+
+#gameboard div {
+	position:absolute;
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;    
+	box-sizing: border-box;         
+	background: #ffffff; 
+	border: 2px solid #000000;
+	width:50px;
+	height:50px;
+	opacity:1.8;
+}
+
+.counter {
+	background-color: #93af05;
+	border: 5px solid #000000;
+	padding-left: 25px;
+    padding-right: 25px;
+    display: block;
+}
